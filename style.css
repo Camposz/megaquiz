@@ -1,0 +1,79 @@
+*::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+body {
+    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(https://wallpaperaccess.com/full/1963258.png);
+}
+
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+#question{
+    color: #57698a;
+}
+
+#question-container{
+    font-family: Papyrus, fantasy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Papyrus, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Papyrus, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid #57698a;
+    background-color: #fbf8cb;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #d174a9;
+    outline: none;
+    font-family: Papyrus, fantasy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Papyrus, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Papyrus, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
